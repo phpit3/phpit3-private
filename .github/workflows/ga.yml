@@ -23,7 +23,6 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build --if-present
-      - run: npm test
       - name: linux package
         uses: actions/upload-artifact@v2.2.4
         with:
