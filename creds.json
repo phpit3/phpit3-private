@@ -1,0 +1,10 @@
+{
+  "source": {
+    "base64Credentials": "a2FyaW1hbmRydXNldnljaEBnbWFpbC5jb206VjVtaUpJdThkVTh0ZkJsVTdwajU=",
+    "base_url": "https://phpit3.testrail.io/"
+  },
+  "target": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJhOTU2NmNhNi0zZTg4LTExZWQtODdhMy1jNDc0ZjQ2ZTRhMjciLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJmaXJzdF9uYW1lIjoibXkiLCJsYXN0X25hbWUiOiJuYW1lIiwiaWF0IjoxNjY1NTgyNDQyLCJleHAiOjE2NjU1ODMwNDJ9.9nfuc0ErFg-r-LeHfVPXFN5YMPJNtH-8c3ZwWN0rMto",
+    "base_url": "http://localhost:5000/"
+  }
+}
