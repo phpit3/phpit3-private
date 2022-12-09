@@ -22,15 +22,15 @@ jobs:
     - name: linux package
       uses: actions/upload-artifact@v2.2.4
       with:
-        name: yatt-demo-device-linux
-        path: dist/yatt-demo-device-linux
+        name: yatt-pipe-linux
+        path: dist/yatt-pipe-linux
     - name: mac package
       uses: actions/upload-artifact@v2.2.4
       with:
-        name: yatt-demo-device-macos
-        path: dist/yatt-demo-device-macos     
+        name: yatt-pipe-macos
+        path: dist/yatt-pipe-macos     
     - name: win package
       uses: actions/upload-artifact@v2.2.4
       with:
-        name: yatt-demo-device-win
-        path: dist/yatt-demo-device-win.exe        
+        name: yatt-pipe-win
+        path: dist/yatt-pipe-win.exe        
