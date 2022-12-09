@@ -33,4 +33,4 @@ jobs:
       uses: actions/upload-artifact@v2.2.4
       with:
         name: yatt-pipe-win
-        path: dist/yatt-pipe-win.exe        
+        path: dist/yatt-pipe-win.exe
