@@ -7,7 +7,8 @@
   "author": "YATT",
   "license": "MIT",
   "scripts": {
-    "build": "npx pkg -t linux,macos,win . --out-path dist"
+    "build": "npx pkg -t linux,macos,win . --out-path dist",
+    "test": "echo \"Error: no test specified\""
   },
   "dependencies": {
     "argparse": "^2.0.1",
