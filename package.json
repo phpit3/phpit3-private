@@ -6,8 +6,11 @@
   "bin": "index.js",
   "author": "YATT",
   "license": "MIT",
+  "pkg": {
+    "assets": "api_configs/*"
+  },
   "scripts": {
-    "build": "npx pkg -t linux,macos,win . --out-path dist --debug",
+    "build": "npx pkg -t linux,macos,win . --out-path dist --debug --config package.json",
     "test": "echo \"Error: no test specified\""
   },
   "dependencies": {
