@@ -10,7 +10,7 @@
     "assets": "api_configs/*"
   },
   "scripts": {
-    "build": "npx pkg -t linux,macos,win . --out-path dist --debug --config package.json",
+    "build": "npx pkg -t linux,macos,win . --out-path dist --debug",
     "test": "echo \"Error: no test specified\""
   },
   "dependencies": {
